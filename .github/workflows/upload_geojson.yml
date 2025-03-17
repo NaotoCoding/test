@@ -27,4 +27,4 @@ jobs:
 
       - name: Upload GeoJSON to S3
         run: |
-          aws s3 cp sample.geojson s3://riverdata-main-bucket2/river-data/sample.geojson
+          aws s3 cp assets/sample.geojson s3://riverdata-main-bucket2/river-data/sample.geojson
