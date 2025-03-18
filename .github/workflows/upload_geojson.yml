@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'assets/sample.json'
+      - 'assets/sample.geojson'
 
 permissions:
   id-token: write
@@ -27,4 +27,4 @@ jobs:
           
       - name: Upload GeoJSON to S3
         run: |
-          aws s3 cp assets/sample.json s3://sample-sample-sample-test/sample.json
+          aws s3 cp assets/sample.geojson s3://sample-sample-sample-test/sample.geojson
