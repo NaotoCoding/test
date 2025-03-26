@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Sample Test5"
+        "name": "Sample Test test"
       },
       "geometry": {
         "type": "Point",
