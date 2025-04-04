@@ -27,3 +27,7 @@ jobs:
       - name: Upload GeoJSON to S3
         run: |
           aws s3 cp assets/sample.geojson s3://sample-sample-sample-test/sample.geojson
+      
+      - name: Update JSON to S3
+        run: |
+          aws s3 cp assets/sample.geojson s3://sample-sample-sample-test/sample.json
